@@ -1,0 +1,11 @@
+
+Vyvojovy mod pro Sinki
+
+1) zkopci .we soubor napr do slozky data (neni nutne)
+
+2) vytvor z .we souboru .obj soubor (./generate_obj_file.py cesta.we cesta.obj)
+
+3) Pokud to je nutne, importuj obj soubor do blenderu, uprav mapovani textury (zde se hodi dobre rozvrzene materialy), a vysledek exportuj do slozky models jako obj soubor (zaskrtni materials groups, jinak bude vsehcno jedna textura)
+Pocet textur na node je omezen na maximalne 6
+
+
